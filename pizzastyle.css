@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #fff771;
+    font-size: 3vh;
+    font-family: monospace;
+}
+
+.cash {
+    color: #20cf6c;
+}
+
+#game {
+    padding-top: 4vh;
+    text-align: center;
+}
