@@ -3,17 +3,168 @@
     margin: 0;
     padding: 0;
 }
+
 html {
-    background-color: #fff771;
-    font-size: 3vh;
-    font-family: monospace;
+    background-color: #E1E1E1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    margin-top: 6vh;
+    font-size: 5vw;
+    line-height: 5vw;
+}
+img {
+    display: block;
 }
 
-.cash {
-    color: #20cf6c;
-}
-
-#game {
-    padding-top: 4vh;
+.intro {
+    background-color: #2E8955;
+    height: calc(100vh);
+    width: calc(100vw);
+    overflow: hidden;
+    color: #E1E1E1;
     text-align: center;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.navBar {
+    margin-bottom: 0px;
+    background-color: #2E8955;
+    height: calc(10vh);
+    width: calc(100vw);
+    color: #E1E1E1;
+}
+.link {
+    color: inherit;
+    margin-right: 4vw;
+}
+.homelink {
+    color: inherit;
+    margin-right: 3vw;
+}
+.selfLink {
+    color: #DFEB82;
+    margin-right: 4vw;
+    font-weight: bolder;
+}
+.main {
+    margin-top: 0px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: baseline;
+    color: #2E8955;
+    text-decoration: none;
+}
+.image {
+    margin-left: auto;
+    margin-right: auto;
+}
+.gamelink {
+    color: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+}
+.gamegrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2vmin;
+    grid-gap: 2vmin;
+}
+.gridunit {
+    background-color: #C6C4C4;
+    border: solid 2px #2E8955;
+    padding: 2vmin;
+}
+.gameinfo {
+    font-size: 1.5vw;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 2vw;
+    text-align: left;
+    padding-left: 30vmin;
+    padding-right: 30vmin;
+}
+.meinfo {
+    font-size: 1.5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: left;
+}
+.collapsible {
+    background-color: #2E8955;
+    color: #E1E1E1;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 2vw;
+    font-family: inherit;
+}
+
+#start {
+    font-size: 5vw;
+}
+#special {
+    color: #DFEB82;
+}
+#aah {
+    font-size: 3vw;
+    line-height: 5vw;
+}
+#beh {
+    font-size: 1.9vw;
+    line-height: 4vw;
+}
+#ceh {
+    font-size: 2vw;
+    line-height: 2vw;
+}
+#deh {
+    font-size: 2vw;
+    line-height: 3vw;
+    margin-bottom: 6vh;
+}
+#links {
+    margin-bottom: 7vh;
+    margin-left: 2vw;
+    line-height: 13vh;
+    font-size: 3vw;
+}
+#eeh {
+    margin-bottom: 0;
+    font-size: 1.7vw;
+    line-height: 2vw;
+}
+#danceDog {
+    width: 7vw;
+    image-rendering: pixelated;
+}
+#gameimage {
+    width: 5vw;
+    image-rendering: pixelated;
+}
+#navName {
+    margin-left: 10vw;
+}
+#resume {
+    color: #DFEB82;
+    vertical-align: middle;
+    text-decoration: none;
+}
+#downloads {
+    margin: auto;
+    width: 5vmin;
+    image-rendering: pixelated;
+    display: inline-block;
+}
+#homelinks {
+    font-size: 3vw;
+/*    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 15vw;
+    padding-right: 15vw;*/
+    margin-bottom: 7vh;
 }
